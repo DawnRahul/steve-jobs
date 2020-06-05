@@ -1,27 +1,44 @@
+<!DOCTYPE html>
 <html>
   <head> 
-    <title>Steve Jobs</title>
+  <title>Steve Jobs</title>
+  <meta charset="UTF-8">
+  <link rel="icon" href="icon/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet">
     <style>
-      #bottom-steve-quote {
+        #bottom-steve-quote {
         width: 360px;
         text-align: left;
         margin-left: 30%;
-		color: #636e72;
+		    color: #636e72;
+        font-style: italic;
+      }
+		#image {
+        width: 62%;
       }
 	  	#img-div {
 		  	background-color: white ;
+        text-align: center;
 		}
       #main {
          text-align: center;
-	    	 background-color: #ecf0f1;
+		 background-color: #ecf0f1;
+         color: #2f3542;
+         font-family: 'Comfortaa', cursive;
+		 font-size: 1rem;
       }
       #title {
         margin-top: 40px;
-		margin-bottom: 20px;
+	    margin-bottom: 20px;
         font-size: 60px;
+        font-weight: bold;
+        font-family: 'Fredoka One',serif;
+        color: #222f3e;
       }
-      #tribute-info {
-        padding-left: ;
+      #tribute-info h4 {
+        font-color: black;
+        font-family: 'Fredoka One',serif;
       }
       #tribute-info-points {
         text-align: left;
@@ -29,6 +46,19 @@
         padding-right: 20%;
         line-height: 2;
       }
+      #tribute-link
+    {
+      color: black;
+    }
+	
+	@media (max-width: 700px){
+  #image{
+        width: 100%;
+        height: auto;
+      }
+}
+
+
     </style>
   </head>
   <body id="main">
@@ -38,7 +68,7 @@
     </div>
     <div id="img-div">
       <figure>
-        <img id="image"src="image/steve-jobs.jpg" alt="Photo of steve jobs" width="60%">
+        <img id="image" src="image/steve-jobs.jpg"">
         <figcaption id="img-caption">A beautiful photoshoped photo of STEVE JOBS.</figcaption>
       </figure>
     </div>
@@ -56,17 +86,17 @@
         <li>The movie Anywhere But Here is based on a book written by Jobs's sister, Mona Simpson. The movie is dedicated to Jobs.</li>
         <li>Apple co-founder Steve Wozniak notes that Jobs never learned how to code.</li>
         <li>Apple has been ranked No. 1 on Fortune's list of America's most admired companies.</li>
-        <li>Jobs died at his Palo Alto, California, home around 3 p.m on October 5, 2011</li>
+        <li>obs died at his Palo Alto, California, home around 3 p.m on October 5, 2011</li>
       </ul>
       <div >
-          <blockquote id="bottom-steve-quote" cite="http://news.rediff.com/report/2009/sep/14/pm-pays-tribute-to-father-of-green-revolution-borlaug.htm">
+          <blockquote id="bottom-steve-quote" cite="https://www.facebook.com/ShipYaari/photos/a.158317884354018/925902044262261/?type=1&theater">
             <p>
                 “You can’t connect the dots looking forward; you can only connect them looking backwards. So you have to trust                  that the dots will somehow connect in your future.” 
             </p>
             <cite>-- Steve Jobs</cite>
           </blockquote>
         <br>
-      <p>If you have time, you should read more about this incredible human being on his<a href="https://en.wikipedia.org/wiki/Steve_Jobs"> Wikipedia entry.</p>
+      <p id="tribute-link">If you have time, you should read more about this incredible human being on his<a target="_blank" href="https://en.wikipedia.org/wiki/Steve_Jobs"> Wikipedia entry.</p>
     
     </div>
   <body>
