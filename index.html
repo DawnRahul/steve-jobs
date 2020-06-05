@@ -10,26 +10,33 @@
         #bottom-steve-quote {
         width: 360px;
         text-align: left;
-        margin-left: 30%;
-		    color: #636e72;
+        margin-left: 38%;
+        color: #636e72;
         font-style: italic;
       }
-		#image {
+	#image {
         width: 62%;
+	height: auto;
       }
-	  	#img-div {
-		  	background-color: white ;
+      #img-div {
+	background-color: white ;
         text-align: center;
 		}
+      #img-div figure {
+        margin: 0px;
+	}
+      #img-caption {
+	font-size: 0.7rem;
+	}
       #main {
          text-align: center;
-		 background-color: #ecf0f1;
+	 background-color: #ecf0f1;
          color: #2f3542;
          font-family: 'Comfortaa', cursive;
-		 font-size: 1rem;
+	 font-size: 1rem;
       }
       #title {
-        margin-top: 40px;
+        margin-top: 20px;
 	    margin-bottom: 20px;
         font-size: 60px;
         font-weight: bold;
@@ -46,16 +53,40 @@
         padding-right: 20%;
         line-height: 2;
       }
-      #tribute-link
-    {
+      #tribute-link {
       color: black;
+      margin-top: 32px;
+      font-size: 0.85rem;
     }
 	
-	@media (max-width: 700px){
-  #image{
-        width: 100%;
-        height: auto;
+@media (max-width: 900px){
+     #bottom-steve-quote {
+	display: inline-block;
+        width: 70%;
+        text-align: left;
+	color: #636e72;
+	font-size: 0.72rem;
+        font-style: italic;
+	margin-left: auto;
+	margin-right: auto;
       }
+    #image{
+          width: 100%;
+          height: auto;
+        }
+    #main {
+	font-size: 0.8rem;
+	}
+    #tribute-info-points {
+        text-align: left;
+        padding-left: 8%;
+        padding-right: 6%;
+        line-height: 1.7;
+      }
+    #tribute-link {
+	font-size: 0.62rem;
+    }
+	
 }
 
 
@@ -68,7 +99,7 @@
     </div>
     <div id="img-div">
       <figure>
-        <img id="image" src="image/steve-jobs.jpg"">
+        <img id="image" src="https://images4.alphacoders.com/176/176734.jpg" alt="Photo of steve jobs"">
         <figcaption id="img-caption">A beautiful photoshoped photo of STEVE JOBS.</figcaption>
       </figure>
     </div>
